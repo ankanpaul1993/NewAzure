@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: 'win1803'
 
-container: mcr.microsoft.com/windows/servercore:1803
+container: http://pulkit1309167.ukwest.cloudapp.azure.com:8080/
 
 steps:
 - task: Maven@3
